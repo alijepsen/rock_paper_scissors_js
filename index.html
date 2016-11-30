@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline:300,400,700" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="assets/stylesheets/main.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h2 class="center">Rock, Paper, Scissors</h2>
+      <hr />
+      <h4 class="center" id='scoreboard'><span class='green-text'>Wins: 0</span> | <span class='red-text'>Losses: 0</span> | <span class='blue-text'>Ties: 0</span></h4>
+      <br /><br />
+      <div class="row">
+        <img class="col s12 m4 choice" id="Rock" src="http://weknowyourdreams.com/images/rock/rock-06.jpg" />
+
+        <img class="col s12 m4 choice" id="Paper" src="https://ideavenue.files.wordpress.com/2012/10/note-paper.png" />
+
+        <img class="col s12 m4 choice" id="Scissors" src="http://www2.fiskars.com/var/fiskars_amer/storage/images/frontpage2/products/kids-and-school/kids-scissors-ages-4/softgrip-left-handed-pointed-tip-kids-scissors-5/16381-9-eng-US/Softgrip-Left-handed-Pointed-tip-Kids-Scissors-5.png" />
+      </div>
+      <div class='left'>
+       <h4 class='blue-text left-align' id='ali'></h4>
+       </div>
+       <div class='right'>
+       <h4 class='red-text right-align' id='computer'></h4>
+       </div>
+       <br /><br />
+       <div style="clear: both;">
+       <h3 class='orange-text center' id='winner'></h3>
+       </div>
+    </div>
+
+    <script src="assets/javascripts/main.js"></script>
+  </body>
+</html>
